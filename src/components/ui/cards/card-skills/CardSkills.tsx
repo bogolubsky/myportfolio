@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { motion } from 'framer-motion'
+import { motion, Variants } from 'framer-motion'
 import styles from './CardSkills.module.scss'
 
 const listItemVariants = {
@@ -12,7 +12,7 @@ interface SkillCardProps {
 	title: string
 	icon: string
 	items: (string | string[])[]
-	cardVariants: any
+	cardVariants: Variants
 }
 
 const SkillCard: React.FC<SkillCardProps> = ({
