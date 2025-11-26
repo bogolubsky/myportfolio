@@ -1,0 +1,35 @@
+.skills {
+	.skillsItems {
+		display: grid;
+		grid-template-columns: 311px 311px 311px;
+		grid-template-rows: auto;
+		gap: 32px;
+		margin-left: 80px;
+
+		@media (max-width: 1440px) {
+			gap: 24px;
+			margin-left: 64px;
+			grid-template-columns: 282px 282px 282px;
+		}
+
+		@media (max-width: 1240px) {
+			gap: 22px;
+			margin-left: 0;
+			grid-template-columns: 264px 264px 264px;
+			justify-content: center;
+		}
+
+		@media (max-width: 1024px) {
+			grid-template-columns: 232px 232px 232px;
+		}
+
+		@media (max-width: 864px) {
+			grid-template-columns: 246px 246px;
+			gap: 24px;
+		}
+
+		@media (max-width: 640px) {
+			grid-template-columns: 269px;
+		}
+	}
+}

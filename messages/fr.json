@@ -1,0 +1,54 @@
+{
+	"header": {
+		"title": {
+			"welcome": "Bonjour 👋, je suis",
+			"desktop": "développeur frontal",
+			"mobile": "frontend dev",
+			"little": {
+				"mobile": "front dev"
+			}
+		},
+		"description": "Je m'appelle Kirill Bogolyubsky. Je développe des sites Web animés, modernes et tendances avec une précision au pixel près, avec un code propre et pris en charge dans Vue 3, React 19 ou Vanilla JavaScript.",
+		"configurations": {
+			"about": "sur moi",
+			"skills": "mes compétences",
+			"services": "mes services"
+		}
+	},
+	"button": {
+		"write": "Écris moi",
+		"skills": "mes compétences",
+		"go": "allons-y"
+	},
+	"services": {
+		"title": "mes services",
+		"item": {
+			"title": {
+				"animated": "Site animé",
+				"site": "site",
+				"translate": "Traduction sites",
+				"tilda": "Site sur Tilda",
+				"wordpress": "Site WordPress",
+				"figma": "Conception Figma"
+			},
+			"description": {
+				"animated": "Je créerai un site Web élégant et animé avec une mise en page Pixel Perfect précise. J'utilise des technologies front-end et back-end modernes (Vue 3 / Nuxt 3, React 19 / Next 15, NestJS, Express). Je fournirai une assistance étape par étape et un code propre et facile à maintenir.",
+				"site": "Je créerai un site Web statique sur Pixel Perfect en utilisant les technologies Web modernes : Vue 3 / Nuxt 3 ou React 19 / Next 15. Je développerai également un backend sur NestJS ou Express si une logique côté serveur est requise.",
+				"translate": "J'aiderai votre site sur Vue, React ou WordPress à atteindre le niveau international - je le traduirai dans toutes les langues souhaitées.",
+				"tilda": "Je développerai un site internet sur Tilda avec une structure bien pensée, un design adaptatif et un lancement rapide. J'utilise les puissantes capacités de l'outil et finalise les détails de votre projet.",
+				"wordpress": "Je développerai un site Web sur WordPress avec un design convivial, une optimisation SEO, une protection SSL et un support pour différentes langues. J'utilise des modèles et des plugins éprouvés.",
+				"figma": "Je développerai une conception de site Web de haute qualité, moderne et conviviale dans Figma, qui répond aux tendances et à vos attentes."
+			},
+			"button": "allons-y"
+		}
+	},
+	"about": {
+		"title": "sur moi",
+		"name": "Kirill Bogolyubsky",
+		"description": "Développeur frontend, je crée des sites internet modernes, rapides et conviviaux. Je travaille avec Vue 3, React 19, Nuxt, Next et sais configurer le backend sur NestJS et Express. J'adore créer des interfaces animées et des sites Web réactifs. Je développe des pages statiques et dynamiques avec un support multilingue.",
+		"time": "années dans"
+	},
+	"skills": {
+		"title": "compétences"
+	}
+}

@@ -1,0 +1,142 @@
+.service_card {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	max-width: 308px;
+	border-radius: 16px;
+	border: 1px solid #fff;
+	padding: 20px 26px 23px;
+	transition: 0.25s;
+	text-decoration: none;
+	cursor: pointer;
+
+	@media (max-width: 1440px) {
+		max-width: 264px;
+		padding: 18px 24px 22px;
+	}
+
+	@media (max-width: 1240px) {
+		max-width: 258px;
+		border-radius: 12px;
+		padding: 15px 18px 17px;
+	}
+
+	@media (max-width: 300px) {
+		padding: 14px 18.4px 19.8px;
+	}
+
+	&:hover {
+		background: rgba(0, 0, 0, 0.15);
+		transform: scale(1.05);
+
+		img {
+			transform: rotate(360deg);
+		}
+	}
+
+	&__title {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 24px;
+
+		@media (max-width: 1440px) {
+			margin-bottom: 18px;
+		}
+	}
+
+	h3 {
+		font-size: 34px;
+		font-weight: 700;
+		line-height: 1.275;
+		margin-right: 4px;
+
+		@media (max-width: 1440px) {
+			font-size: 29.2px;
+		}
+
+		@media (max-width: 1240px) {
+			font-size: 26.8px;
+		}
+
+		@media (max-width: 1024px) {
+			font-size: 24px;
+		}
+	}
+
+	p {
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 1.35;
+
+		@media (max-width: 1440px) {
+			font-size: 19.25px;
+		}
+
+		@media (max-width: 1240px) {
+			font-size: 18.15px;
+		}
+
+		@media (max-width: 1024px) {
+			font-size: 16.65px;
+		}
+	}
+
+	button {
+		padding: 8px 8px 8px 20px;
+		margin-top: 32px;
+		max-width: 180px;
+		font-size: 17px;
+		outline: none;
+		background: rgba(255, 255, 255, 0);
+		border-radius: 100px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		cursor: pointer;
+		transition: 0.25s;
+
+		@media (max-width: 1440px) {
+			margin-top: 24px;
+			max-width: 168px;
+			font-size: 16px;
+		}
+
+		@media (max-width: 1240px) {
+			padding: 6.5px 6.5px 6.5px 12px;
+			margin-top: 20px;
+			max-width: 152px;
+			font-size: 15px;
+		}
+
+		@media (max-width: 1024px) {
+			margin-top: 16px;
+			max-width: 148px;
+			font-size: 14.5px;
+		}
+
+		@media (max-width: 640px) {
+			margin-top: 24px;
+			font-size: 14px;
+		}
+	}
+
+	img {
+		transition: 1s;
+
+		@media (max-width: 1440px) {
+			width: 57.5px;
+			height: 47.75px;
+		}
+
+		@media (max-width: 1240px) {
+			width: 54.5px;
+			height: 45.75px;
+		}
+
+		@media (max-width: 1024px) {
+			width: 46px;
+			height: 40.25px;
+		}
+	}
+}

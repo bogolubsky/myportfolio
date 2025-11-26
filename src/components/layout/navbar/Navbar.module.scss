@@ -1,0 +1,64 @@
+.navbar {
+	display: flex;
+	justify-content: center;
+	padding: 24px 80px;
+	background-color: #33333300;
+	color: #fff;
+	border-bottom: 1px solid #111;
+	box-shadow: 0px 0px 4px 0px #000;
+
+	@media (max-width: 1440px) {
+		padding: 18px 64px;
+	}
+
+	@media (max-width: 1240px) {
+		padding: 16px 48px;
+	}
+
+	@media (max-width: 1024px) {
+		padding: 16px 36px;
+	}
+
+	@media (max-width: 864px) {
+		padding: 16px 32px;
+	}
+
+	@media (max-width: 768px) {
+		position: relative;
+	}
+
+	@media (max-width: 480px) {
+		padding: 16px 24px;
+	}
+
+	@media (max-width: 375px) {
+		padding: 16px 20px;
+	}
+
+	@media (max-width: 320px) {
+		padding: 12px 18px;
+	}
+
+	@media (max-width: 300px) {
+		padding: 12px 16px;
+	}
+
+	&_container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		@media (max-width: 2060px) {
+			width: 100%;
+		}
+
+		@media (min-width: 2060px) {
+			min-width: 1900px;
+		}
+
+		@media (max-width: 768px) {
+			position: relative;
+			justify-content: start;
+		}
+	}
+}

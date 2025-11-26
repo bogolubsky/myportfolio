@@ -1,0 +1,54 @@
+{
+	"header": {
+		"title": {
+			"welcome": "你好👋，我是",
+			"desktop": "frontend developer",
+			"mobile": "frontend dev",
+			"little": {
+				"mobile": "front dev"
+			}
+		},
+		"description": "我是 Kirill Bogolyubsky。我开发具有像素精度的动画、现代和时尚网站，并使用 Vue 3、React 19 或 Vanilla JavaScript 中干净且受支持的代码。",
+		"configurations": {
+			"about": "关于我",
+			"skills": "我的技能",
+			"services": "我的服务"
+		}
+	},
+	"button": {
+		"write": "现在写",
+		"skills": "我的技能",
+		"go": "开始吧"
+	},
+	"services": {
+		"title": "我的服务",
+		"item": {
+			"title": {
+				"animated": "动画网站",
+				"site": "网站",
+				"translate": "网站翻译",
+				"tilda": "蒂尔达网站",
+				"wordpress": "网站WordPress",
+				"figma": "Figma 上的设计"
+			},
+			"description": {
+				"animated": "我将创建一个时尚的动画网站，具有精确的 Pixel Perfect 布局。我使用现代前端和后端技术（Vue 3 / Nuxt 3、React 19 / Next 15、NestJS、Express）。我将提供逐步的支持和干净、易于维护的代码。",
+				"site": "我将使用 Pixel Perfect 创建一个使用现代 Web 技术的静态网站：Vue 3 / Nuxt 3 或 React 19 / Next 15。如果需要服务器端逻辑，我还会使用 NestJS 或 Express 开发后端。",
+				"translate": "我将帮助您的 Vue、React 或 WordPress 网站达到国际水平 - 我会将其翻译成任何所需的语言。",
+				"tilda": "我将在 Tilda 上开发一个具有深思熟虑的结构、自适应设计和快速启动的网站。我将使用该工具的强大功能并最终确定您项目的细节。",
+				"wordpress": "我将在WordPress上开发一个网站，具有用户友好的设计、SEO优化、SSL保护和对多种语言的支持。我使用经过验证的模板和插件。",
+				"figma": "我将在 Figma 中开发一个高质量、现代且用户友好的网站设计，以满足趋势和您的期望。"
+			},
+			"button": "开始吧"
+		}
+	},
+	"about": {
+		"title": "关于我",
+		"name": "基里尔·博戈柳布斯基",
+		"description": "前端开发人员，我创建现代、快速且用户友好的网站。我使用 Vue 3、React 19、Nuxt、Next，并且知道如何在 NestJS 和 Express 上配置后端。我喜欢创建动画界面和响应式网站。我开发具有多语言支持的静态和动态页面。",
+		"time": "year in"
+	},
+	"skills": {
+		"title": "我的技能"
+	}
+}

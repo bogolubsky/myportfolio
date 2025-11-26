@@ -1,0 +1,51 @@
+.languageSwitcher {
+	position: relative;
+	width: 120px;
+
+	select {
+		width: 100%;
+		padding: 11px 12px;
+		font-size: 14px;
+		background: #33300009;
+		border: 2.5px solid #fff;
+		border-radius: 4px;
+		appearance: none;
+		cursor: pointer;
+		transition: background 0.3s, border-color 0.3s;
+		border-radius: 50px;
+		transition: 0.3s;
+
+    @media (max-width: 1024px) {
+			border: 1.75px solid #fff;
+		}
+
+		@media (max-width: 1024px) {
+			border: 1.75px solid #fff;
+		}
+
+		&:hover {
+			background: rgb(80, 80, 80);
+			border-radius: 0;
+		}
+
+		&:focus {
+			outline: none;
+			border-color: rgb(80, 80, 80);
+			border-radius: 0;
+		}
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: 50%;
+		right: 12px;
+		width: 0;
+		height: 0;
+		pointer-events: none;
+		border-left: 6px solid transparent;
+		border-right: 6px solid transparent;
+		border-top: 6px solid #fff;
+		transform: translateY(-50%);
+	}
+}

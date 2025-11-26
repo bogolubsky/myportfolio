@@ -1,0 +1,128 @@
+.skillCard {
+	width: auto;
+	max-width: 311px;
+	padding: 32px;
+	border-radius: 16px;
+	border: 1px solid white;
+	background: transparent;
+	overflow: hidden;
+
+	@media (max-width: 1440px) {
+		max-width: 282px;
+		padding: 24px;
+	}
+
+	@media (max-width: 1240px) {
+		max-width: 264px;
+		border-radius: 12px;
+		padding: 22px;
+	}
+
+	@media (max-width: 1024px) {
+		padding: 18px;
+	}
+
+	@media (max-width: 580px) {
+		max-width: 269px;
+		padding: 16px;
+	}
+}
+
+.titleContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+
+	@media (max-width: 1440px) {
+		margin-bottom: 18px;
+	}
+
+	@media (max-width: 1240px) {
+		margin-bottom: 16px;
+	}
+
+	@media (max-width: 1024px) {
+		margin-bottom: 14px;
+	}
+
+	img {
+		height: 48px;
+		width: auto;
+
+		@media (max-width: 1440px) {
+			height: 44px;
+		}
+
+		@media (max-width: 1240px) {
+			height: 42px;
+		}
+
+		@media (max-width: 1024px) {
+			height: 39px;
+		}
+
+		@media (max-width: 640px) {
+			height: 37px;
+		}
+
+		@media (max-width: 375px) {
+			height: 32px;
+		}
+	}
+}
+
+.content {
+	margin-left: 10%;
+}
+
+.contentList {
+	list-style: none;
+	padding: 0;
+}
+
+.contentItem,
+.contentItem > p {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 8px;
+
+	@media (max-width: 1440px) {
+		font-size: 18px;
+	}
+
+	@media (max-width: 1240px) {
+		font-size: 16px;
+	}
+
+	@media (max-width: 1024px) {
+		font-size: 15px;
+	}
+
+	p {
+		padding: 0;
+	}
+
+	ul {
+		list-style-type: disc;
+		padding-left: 18px;
+
+		li {
+			font-size: 18px;
+			font-weight: 600;
+			padding: 4px;
+
+			@media (max-width: 1440px) {
+				font-size: 16px;
+			}
+
+			@media (max-width: 1240px) {
+				font-size: 14px;
+			}
+
+			@media (max-width: 1024px) {
+				font-size: 13px;
+			}
+		}
+	}
+}
